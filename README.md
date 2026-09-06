@@ -2,9 +2,9 @@
 
 Statische Website, keine Abhängigkeiten, kein Build nötig.
 
-**Live:** https://leonelsancu15-hash.github.io/tattoo-oedi-website/ (GitHub Pages, Branch `main`, Root)
+**Live:** https://leonelsancu15-hash.github.io/tattoo-oedi-website/ · Repo: https://github.com/Leonelsancu15-hash/tattoo-oedi-website (Dateien dort flach mit Präfixen `img-`, `fonts-`, `video-`)
 
-In diesem Repository liegen alle Dateien flach im Hauptverzeichnis (Präfixe `img-`, `fonts-`, `video-`), weil sie über den GitHub-Web-Upload eingespielt wurden. Die Original-Struktur mit Unterordnern liegt im Obsidian Vault unter `Projekte/tattoo-oedi-website/`.
+In diesem Repository liegen alle Dateien flach im Hauptverzeichnis (Präfixe `img-`, `fonts-`, `video-`, `vendor-`), weil sie über den GitHub-Web-Upload eingespielt wurden. Die Original-Struktur mit Unterordnern liegt im Obsidian Vault unter `Projekte/tattoo-oedi-website/`.
 
 ## Inhalt
 
@@ -20,7 +20,7 @@ In diesem Repository liegen alle Dateien flach im Hauptverzeichnis (Präfixe `im
 
 1. `impressum.html`: Nachname, Anschrift, E-Mail, Umsatzsteuer-Angabe, Hosting-Anbieter eintragen.
 2. Studio-Adresse: In `index.html` nach `Adresse folgt` suchen und ersetzen (Abschnitt Kontakt).
-3. `og:image` in `index.html` zeigt auf `img-loewe-blumen-1200.webp` – für Social-Media-Vorschau ggf. absolute URL eintragen, sobald die Domain steht.
+3. `og:image` in `index.html` zeigt auf `img/loewe-blumen-1200.webp` – für Social-Media-Vorschau ggf. absolute URL eintragen, sobald die Domain steht.
 
 ## Anfrage-Formular
 
