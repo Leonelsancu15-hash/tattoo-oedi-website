@@ -1,6 +1,10 @@
 # Tattoo Oedi – Website
 
-Statische Website, keine Abhängigkeiten, kein Build nötig. Ordner einfach auf einen beliebigen Webspace hochladen (Netlify, GitHub Pages, IONOS, Strato …) oder `index.html` lokal im Browser öffnen.
+Statische Website, keine Abhängigkeiten, kein Build nötig.
+
+**Live:** https://leonelsancu15-hash.github.io/tattoo-oedi-website/ (GitHub Pages, Branch `main`, Root)
+
+In diesem Repository liegen alle Dateien flach im Hauptverzeichnis (Präfixe `img-`, `fonts-`, `video-`), weil sie über den GitHub-Web-Upload eingespielt wurden. Die Original-Struktur mit Unterordnern liegt im Obsidian Vault unter `Projekte/tattoo-oedi-website/`.
 
 ## Inhalt
 
@@ -8,10 +12,9 @@ Statische Website, keine Abhängigkeiten, kein Build nötig. Ordner einfach auf 
 |---|---|
 | `index.html` | Die komplette Seite (HTML, CSS, JS in einer Datei) |
 | `impressum.html` | Impressum + Datenschutz – **Platzhalter vor Livegang ausfüllen** (rot markiert) |
-| `img/` | Galerie-Bilder als WebP in 640 px und 1200 px, Hero-Bild in 900/1600 px |
-| `img/gallery.json` | Liste der Galerie-Bilder (Name, Kategorie, Alt-Text) – nur zur Dokumentation |
-| `video/` | 6-Sekunden-Clip vom Stechen (stumm, Loop) + Poster |
-| `fonts/` | Archivo und IBM Plex Mono, lokal eingebunden (SIL Open Font License) |
+| `img-*.webp` | Galerie-Bilder als WebP in 640 px und 1200 px, Hero-Bild in 900/1600 px |
+| `video-*` | 6-Sekunden-Clip vom Stechen (stumm, Loop) + Poster |
+| `fonts-*` | Archivo und IBM Plex Mono, lokal eingebunden (SIL Open Font License) |
 
 ## Vor dem Livegang
 
