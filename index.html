@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tattoo Oedi – Black & Grey, Fineline & Anime Tattoos von Dennis</title>
+<meta name="description" content="Tattoo Oedi: individuelle Tattoos mit Liebe zum Detail. Schwerpunkt Black & Grey, Fineline und Anime. Persönliche Beratung, Cover-ups nach Prüfung, Mindestpreis 80 €. Anfrage direkt per WhatsApp.">
+<meta property="og:title" content="Tattoo Oedi – Deine Idee. Dein Tattoo. Dein Style.">
+<meta property="og:description" content="Black & Grey · Fineline · Anime. Individuelle Tattoos von Dennis. Anfrage direkt per WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img-loewe-blumen-1200.webp">
+<meta name="theme-color" content="#0b0a09">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b0a09'/%3E%3Ctext x='32' y='44' font-family='Arial Black,Arial' font-weight='900' font-size='34' fill='%23ece6dd' text-anchor='middle'%3ETO%3C/text%3E%3C/svg%3E">
+<style>
+/* Schriften lokal (SIL Open Font License): Archivo, IBM Plex Mono */
+@font-face{font-family:'Archivo';font-style:normal;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url(fonts-archivo-100-900-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url(fonts-archivo-100-900-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts-ibm-plex-mono-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts-ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts-ibm-plex-mono-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts-ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+
+/* ============ Tokens ============ */
+:root{
+  --ink:#0b0a09;            /* Seite: wie die schwarze Abdeckfolie */
+  --ink-2:#141210;          /* dunkle Panels */
+  --ink-3:#1d1a17;          /* Controls auf dunkel */
+  --skin:#e8dbca;           /* helle Kapitel: Haut / Papier */
+  --skin-2:#f2eadf;
+  --skin-3:#d8c8b3;
+  --graphite:#8d857b;       /* Schattierung, Labels */
+  --graphite-2:#5d5750;
+  --fg:#ece6dd;             /* Text auf dunkel */
+  --fg-dim:#b9b1a6;
+  --fg-dark:#17140f;        /* Text auf hell */
+  --fg-dark-dim:#4b463f;
+  --red:#c8352b;            /* Stencil-Rot – nur Signal */
+  --red-deep:#a92a22;
+  --line:rgba(236,230,221,.14);
+  --line-dark:rgba(23,20,15,.16);
+  --radius:6px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --font-display:"Archivo",system-ui,"Helvetica Neue",Arial,sans-serif;
+  --font-text:"Archivo",system-ui,"Helvetica Neue",Arial,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --gutter:clamp(20px,5vw,64px);
+  --max:1360px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--ink);color:var(--fg);font-family:var(--font-text);font-size:clamp(16px,1.05vw,18px);line-height:1.55;font-variation-settings:"wdth" 100;-webkit-font-smoothing:antialiased}
+img,video{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+.light :focus-visible,.light-2 :focus-visible{outline-color:var(--fg-dark)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{position:absolute;left:var(--gutter);top:-100px;background:var(--red);color:#fff;padding:10px 14px;z-index:100;border-radius:var(--radius)}
+.skip:focus{top:12px}
+
+/* ============ Type ============ */
+h1,h2,h3{margin:0;font-family:var(--font-display);font-weight:800;letter-spacing:-.02em;line-height:.95;text-wrap:balance}
+.display{font-size:clamp(44px,7vw,112px);font-variation-settings:"wdth" 112,"wght" 800;text-transform:uppercase;letter-spacing:-.03em;line-height:.88}
+.h2{font-size:clamp(34px,5.2vw,76px);font-variation-settings:"wdth" 108,"wght" 780;text-transform:uppercase;letter-spacing:-.025em;line-height:.9}
+.h2-s{font-size:clamp(30px,3.6vw,52px)}
+.h3{font-size:clamp(22px,2.2vw,30px);font-weight:700;letter-spacing:-.015em;line-height:1.1}
+.lead{font-size:clamp(18px,1.5vw,23px);line-height:1.45;max-width:34em;color:var(--fg);letter-spacing:-.005em}
+.light .lead,.light-2 .lead{color:var(--fg-dark)}
+p{margin:0 0 1em;max-width:62ch}
+.dim{color:var(--fg-dim)} .light .dim,.light-2 .dim{color:var(--fg-dark-dim)}
+.mono{font-family:var(--font-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--graphite)}
+.light .mono,.light-2 .mono{color:var(--graphite-2)}
+.num{font-family:var(--font-mono);font-size:13px;letter-spacing:.1em;color:var(--graphite);}
+.light .num,.light-2 .num{color:var(--graphite-2)}
+
+/* ============ Layout ============ */
+.wrap{max-width:var(--max);margin:0 auto;padding-left:var(--gutter);padding-right:var(--gutter)}
+section{position:relative}
+.section{padding:clamp(72px,10vw,150px) 0}
+.light{background:var(--skin);color:var(--fg-dark)}
+.light-2{background:var(--skin-2);color:var(--fg-dark)}
+.dark-2{background:var(--ink-2)}
+.hair{border-top:1px solid var(--line)} .light .hair,.light-2 .hair{border-color:var(--line-dark)}
+.grid{display:grid;gap:clamp(24px,4vw,64px)}
+@media (min-width:900px){.grid-2{grid-template-columns:1fr 1fr}.grid-5-7{grid-template-columns:5fr 7fr}.grid-7-5{grid-template-columns:7fr 5fr}.grid-4-8{grid-template-columns:4fr 8fr}}
+.head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:28px 40px;margin-bottom:clamp(32px,4vw,56px)}
+.head .mono{margin-bottom:14px;display:block}
+
+/* ============ Buttons ============ */
+.btn{--bg:var(--fg);--fgc:var(--ink);display:inline-flex;align-items:center;gap:10px;padding:15px 22px;border-radius:var(--radius);background:var(--bg);color:var(--fgc);text-decoration:none;font-weight:600;font-size:15px;letter-spacing:.01em;border:1px solid transparent;cursor:pointer;transition:transform .18s var(--ease),background .18s var(--ease),color .18s var(--ease),border-color .18s var(--ease);font-family:inherit;line-height:1.1}
+.btn svg{width:18px;height:18px;flex:none}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.btn-red{--bg:var(--red);--fgc:#fff}
+.btn-red:hover{--bg:var(--red-deep)}
+.btn-ghost{--bg:transparent;--fgc:var(--fg);border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--fg)}
+.light .btn-ghost,.light-2 .btn-ghost{--fgc:var(--fg-dark);border-color:var(--line-dark)}
+.light .btn-ghost:hover,.light-2 .btn-ghost:hover{border-color:var(--fg-dark)}
+.btn-dark{--bg:var(--fg-dark);--fgc:var(--skin-2)}
+.btn-dark:hover{--bg:#000}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.link{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;border-bottom:1px solid currentColor;padding-bottom:2px;transition:gap .18s var(--ease)}
+.link:hover{gap:12px}
+.link svg{width:16px;height:16px}
+
+/* ============ Nav ============ */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:14px var(--gutter);transition:background .3s var(--ease),border-color .3s var(--ease);border-bottom:1px solid transparent}
+.nav.solid{background:rgba(11,10,9,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:var(--line)}
+.brand{font-family:var(--font-display);font-variation-settings:"wdth" 115,"wght" 800;text-transform:uppercase;letter-spacing:-.01em;text-decoration:none;font-size:15px;justify-self:start;line-height:1}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:26px}
+.nav ul a{text-decoration:none;font-size:14px;color:var(--fg-dim);transition:color .18s}
+.nav ul a:hover{color:var(--fg)}
+.nav .btn{padding:11px 16px;font-size:14px;justify-self:end}
+.menu-btn{display:none;justify-self:end;background:transparent;border:1px solid var(--line);color:var(--fg);border-radius:var(--radius);padding:9px 12px;font:inherit;font-size:13px;cursor:pointer}
+@media (max-width:899px){
+  .nav{grid-template-columns:1fr auto auto;gap:10px}
+  .nav ul{display:none}
+  .nav .btn{display:none}
+  .menu-btn{display:inline-flex}
+  .nav.open ul{display:flex;position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:0;background:var(--ink);border-bottom:1px solid var(--line);padding:8px var(--gutter) 20px}
+  .nav.open ul a{display:block;padding:14px 0;font-size:20px;border-top:1px solid var(--line);color:var(--fg)}
+  .nav.open ul li:first-child a{border-top:0}
+  .nav.open{background:var(--ink)}
+}
+
+/* ============ Hero ============ */
+.hero{min-height:100svh;display:grid;align-items:end;position:relative;overflow:clip;padding-top:72px}
+.hero-media{position:absolute;inset:0 0 0 36%;z-index:0}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:70% 40%}
+.hero-media::after{content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(to right,var(--ink) 0%,rgba(11,10,9,.85) 14%,rgba(11,10,9,.3) 34%,transparent 52%),
+    linear-gradient(to top,var(--ink) 0%,rgba(11,10,9,.55) 18%,transparent 42%),
+    linear-gradient(to bottom,rgba(11,10,9,.55) 0%,transparent 18%)}
+.hero-copy{position:relative;z-index:1;width:100%;padding-bottom:clamp(40px,7vw,96px);padding-top:clamp(120px,22vh,220px)}
+.hero .display{max-width:11ch;margin:18px 0 26px}
+.hero .lead{max-width:30em}
+@media (max-width:899px){
+  .hero{align-items:start;min-height:auto}
+  .hero-media{position:relative;inset:auto;aspect-ratio:3/4;max-height:70svh}
+  .hero-media img{object-position:50% 40%}
+  .hero-media::after{background:linear-gradient(to top,var(--ink) 0%,rgba(11,10,9,.6) 30%,transparent 60%),linear-gradient(to bottom,rgba(11,10,9,.5) 0%,transparent 20%)}
+  .hero-copy{padding-top:0;margin-top:-90px}
+}
+
+/* ============ Style chapters ============ */
+.chapter{padding:clamp(56px,8vw,120px) 0}
+.chapter .grid{align-items:center}
+.chapter figure{margin:0;position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:var(--radius);background:var(--ink-3)}
+.light .chapter figure{background:var(--skin-3)}
+.chapter figure img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease)}
+.chapter figure:hover img{transform:scale(1.02)}
+.chapter figcaption{position:absolute;left:14px;bottom:12px;font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:rgba(11,10,9,.62);padding:6px 9px;border-radius:4px}
+.chapter .num{display:block;margin-bottom:18px}
+.chapter .h2{margin-bottom:22px}
+.chapter .lead{margin-bottom:10px}
+@media (min-width:900px){.chapter.flip .grid > :first-child{order:2}}
+.marks{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:10px}
+.marks li{display:flex;gap:14px;align-items:center;padding:12px 0;border-top:1px solid var(--line-dark);font-weight:500}
+.marks li:last-child{border-bottom:1px solid var(--line-dark)}
+.marks .num{width:34px;flex:none}
+
+/* ============ Portfolio ============ */
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:transparent;border:1px solid var(--line);color:var(--fg-dim);padding:9px 14px;border-radius:999px;font:inherit;font-size:14px;cursor:pointer;transition:all .18s var(--ease)}
+.chip:hover{color:var(--fg);border-color:var(--fg)}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--ink);border-color:var(--fg)}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media (min-width:640px){.gallery{grid-template-columns:repeat(3,1fr);gap:14px}}
+@media (min-width:1100px){.gallery{grid-template-columns:repeat(4,1fr);gap:16px}}
+.gallery figure{margin:0;position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:var(--radius);background:var(--ink-3)}
+.gallery figure[hidden]{display:none}
+.gallery button{all:unset;display:block;width:100%;height:100%;cursor:zoom-in}
+.gallery button:focus-visible{outline:2px solid var(--red);outline-offset:-2px}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease),opacity .6s}
+.gallery figure:hover img{transform:scale(1.03)}
+.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 12px 10px;font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg);background:linear-gradient(to top,rgba(11,10,9,.8),transparent);pointer-events:none}
+.gallery-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px;margin-top:40px;padding-top:28px;border-top:1px solid var(--line)}
+.count{font-family:var(--font-mono);font-size:13px;color:var(--graphite);letter-spacing:.08em}
+
+/* Lightbox */
+dialog.lb{border:0;padding:0;background:transparent;max-width:100vw;max-height:100vh;width:100vw;height:100vh;margin:0;color:var(--fg)}
+dialog.lb::backdrop{background:rgba(11,10,9,.94)}
+.lb-inner{display:grid;grid-template-rows:minmax(0,1fr) auto;height:100%;padding:64px var(--gutter) 24px;gap:14px}
+.lb-inner img{width:100%;height:100%;min-height:0;object-fit:contain;border-radius:var(--radius)}
+.lb-bar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.lb-bar p{margin:0;font-size:15px;color:var(--fg-dim)}
+.lb-ctl{display:flex;gap:8px}
+.icon-btn{background:var(--ink-3);border:1px solid var(--line);color:var(--fg);border-radius:var(--radius);width:44px;height:44px;display:grid;place-items:center;cursor:pointer}
+.icon-btn:hover{border-color:var(--fg)}
+.icon-btn svg{width:22px;height:22px}
+.lb-close{position:absolute;top:14px;right:var(--gutter)}
+
+/* ============ About ============ */
+.about-media{position:relative;aspect-ratio:9/16;max-height:640px;border-radius:var(--radius);overflow:hidden;background:var(--skin-3);justify-self:center;width:min(100%,380px)}
+.about-media video,.about-media img{width:100%;height:100%;object-fit:cover}
+.about-media figcaption{position:absolute;left:12px;right:12px;bottom:12px;font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:rgba(11,10,9,.62);padding:7px 10px;border-radius:4px}
+.sig{margin-top:34px;padding-top:22px;border-top:1px solid var(--line-dark);display:flex;flex-direction:column;gap:2px}
+.sig strong{font-size:20px;letter-spacing:-.01em}
+
+/* ============ Cover-ups / Preise ============ */
+.big-price{font-family:var(--font-display);font-variation-settings:"wdth" 112,"wght" 800;font-size:clamp(64px,11vw,168px);line-height:.85;letter-spacing:-.04em;margin:10px 0 6px}
+.big-price small{font-size:.28em;font-weight:600;letter-spacing:0;font-variation-settings:"wdth" 100,"wght" 600;vertical-align:.9em;margin-right:.15em;color:var(--fg-dark-dim)}
+.facts{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:0}
+.facts li{padding:18px 0;border-top:1px solid var(--line-dark);display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.facts li:last-child{border-bottom:1px solid var(--line-dark)}
+.facts .num{padding-top:5px}
+
+/* ============ Anfrage ============ */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{display:grid;grid-template-columns:48px 1fr;gap:14px;padding:16px 0;border-top:1px solid var(--line)}
+.steps li:last-child{border-bottom:1px solid var(--line)}
+.steps strong{display:block;font-size:17px;margin-bottom:2px}
+.steps .num{padding-top:4px}
+form{display:grid;gap:18px;background:var(--ink-2);border:1px solid var(--line);border-radius:10px;padding:clamp(20px,3vw,36px)}
+.field{display:grid;gap:8px}
+.field label,.field legend{font-size:14px;font-weight:600;color:var(--fg)}
+.field .hint{font-size:13px;color:var(--fg-dim);margin:0}
+input[type=text],textarea,select{width:100%;background:var(--ink);border:1px solid var(--line);color:var(--fg);border-radius:var(--radius);padding:13px 14px;font:inherit;font-size:16px}
+input[type=text]:focus,textarea:focus{border-color:var(--fg);outline:none}
+textarea{min-height:120px;resize:vertical}
+fieldset{border:0;padding:0;margin:0}
+.radios{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.radios label{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:9px 14px;cursor:pointer;font-size:14px;color:var(--fg-dim)}
+.radios input{accent-color:var(--red);margin:0}
+.radios label:has(input:checked){border-color:var(--fg);color:var(--fg)}
+.radios label:has(input:focus-visible){outline:2px solid var(--red);outline-offset:2px}
+.check{display:flex;gap:12px;align-items:start;font-size:15px;color:var(--fg-dim)}
+.check input{accent-color:var(--red);width:18px;height:18px;margin-top:3px;flex:none}
+.form-foot{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:center;justify-content:space-between;margin-top:6px}
+.form-foot .hint{font-size:13px;color:var(--fg-dim);margin:0;max-width:34em}
+.two{display:grid;gap:18px}
+@media (min-width:640px){.two{grid-template-columns:1fr 1fr}}
+.status{font-size:14px;color:var(--fg-dim);min-height:1.2em;margin:0}
+
+/* ============ Hygiene ============ */
+.hyg{display:grid;gap:24px;align-items:start}
+@media (min-width:900px){.hyg{grid-template-columns:auto 1fr}}
+.hyg svg{width:56px;height:56px;color:var(--fg-dark)}
+
+/* ============ FAQ ============ */
+.faq{border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:48px 1fr auto;gap:14px;align-items:center;padding:22px 0;font-size:clamp(18px,1.6vw,22px);font-weight:600;letter-spacing:-.01em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .plus{width:28px;height:28px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-weight:400;font-size:20px;line-height:1;transition:transform .25s var(--ease),background .2s}
+.faq details[open] summary .plus{transform:rotate(45deg);background:var(--fg);color:var(--ink)}
+.faq details p{margin:0 0 24px 62px;color:var(--fg-dim);max-width:60ch}
+.faq summary:hover{color:var(--fg)}
+@media (max-width:640px){.faq summary{grid-template-columns:1fr auto}.faq summary .num{display:none}.faq details p{margin-left:0}}
+
+/* ============ Kontakt ============ */
+.contact{background:var(--red);color:#fff}
+.contact .h2{color:#fff}
+.contact .mono{color:rgba(255,255,255,.7)}
+.contact .btn-dark{--bg:var(--ink);--fgc:var(--fg)}
+.contact .btn-ghost{--fgc:#fff;border-color:rgba(255,255,255,.45)}
+.contact .btn-ghost:hover{border-color:#fff}
+.contact-list{list-style:none;padding:0;margin:0;display:grid;gap:0}
+.contact-list li{display:flex;gap:14px;align-items:center;padding:16px 0;border-top:1px solid rgba(255,255,255,.28);font-size:clamp(18px,1.6vw,22px);font-weight:500}
+.contact-list li:last-child{border-bottom:1px solid rgba(255,255,255,.28)}
+.contact-list svg{width:24px;height:24px;flex:none}
+.contact-list a{text-decoration:none}
+.contact-list a:hover{text-decoration:underline}
+.contact .lead{color:#fff}
+.contact :focus-visible{outline-color:#fff}
+
+/* ============ Footer ============ */
+footer{padding:48px 0 32px;border-top:1px solid var(--line);font-size:14px;color:var(--fg-dim)}
+footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px 40px;align-items:center}
+footer ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 22px}
+footer a{text-decoration:none}
+footer a:hover{color:var(--fg)}
+footer .brand{font-size:18px}
+footer .legal{margin-top:28px;padding-top:20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:13px;color:var(--graphite)}
+
+/* ============ Motion ============ */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.reveal[data-delay="1"]{transition-delay:.08s}.reveal[data-delay="2"]{transition-delay:.16s}.reveal[data-delay="3"]{transition-delay:.24s}
+.word-reveal__word{display:inline-block;opacity:0;transform:translate3d(0,20px,0);transition:opacity .8s var(--ease-out),transform .8s var(--ease-out);transition-delay:calc(var(--word-index)*.07s);will-change:opacity,transform}
+.word-reveal.is-visible .word-reveal__word{opacity:1;transform:none}
+html.js .word-reveal[data-word-reveal]:not(.is-ready){opacity:0}
+@media (prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  html.js .word-reveal[data-word-reveal]:not(.is-ready),.word-reveal__word{opacity:1;transform:none;transition:none}
+  .chapter figure img,.gallery img,.btn{transition:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Tattoo Oedi – Startseite">Tattoo Oedi</a>
+  <nav aria-label="Hauptnavigation">
+    <ul id="menu">
+      <li><a href="#styles">Styles</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#ueber">Über</a></li>
+      <li><a href="#preise">Preise</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+  <a class="btn btn-red" href="#anfrage">Tattoo Anfrage</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menü</button>
+</header>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="hero-media">
+    <img src="img-hero-1600.webp" srcset="img-hero-900.webp 900w, img-hero-1600.webp 1600w" sizes="(max-width:899px) 100vw, 60vw" width="1600" height="2133" alt="Sonnenblumen mit Kolibri und Schmetterlingen in Black & Grey auf einem Unterarm, fotografiert auf schwarzer Abdeckfolie" fetchpriority="high">
+  </div>
+  <div class="wrap hero-copy">
+    <p class="mono">Black &amp; Grey &nbsp;•&nbsp; Fineline &nbsp;•&nbsp; Anime</p>
+    <h1 class="display word-reveal" id="hero-title" data-word-reveal>Deine Idee. Dein Tattoo. Dein Style.</h1>
+    <p class="lead reveal">Willkommen bei Tattoo Oedi. Ich bin Dennis und stehe für individuelle Tattoos mit Liebe zum Detail. Ob kleines, filigranes Motiv oder ein größeres Projekt – jedes Tattoo wird persönlich besprochen und passend zu deinen Vorstellungen umgesetzt.</p>
+    <div class="btn-row reveal" data-delay="1">
+      <a class="btn btn-red" href="#anfrage">Tattoo Anfrage</a>
+      <a class="btn btn-ghost" href="#portfolio">Portfolio ansehen</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STYLES ============ -->
+<section id="styles" aria-label="Meine Styles">
+  <article class="chapter">
+    <div class="wrap grid grid-2">
+      <div class="reveal">
+        <span class="num">01 — Meine Styles</span>
+        <h2 class="h2">Black &amp;<br>Grey</h2>
+        <p class="lead">Ausdrucksstarke Tattoos in Schwarz und Grautönen.</p>
+        <p class="dim">Durch verschiedene Schattierungen und Kontraste entstehen detailreiche und individuelle Motive – vom Portrait bis zum Tier mit Blütenkrone.</p>
+        <a class="link" href="#portfolio" data-filter-link="bg">Black-&amp;-Grey-Arbeiten ansehen <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path fill-rule="evenodd" d="M17.4697 15.5303C17.6842 15.7448 18.0068 15.809 18.287 15.6929C18.5673 15.5768 18.75 15.3033 18.75 15V6C18.75 5.58579 18.4142 5.25 18 5.25L9.00002 5.25C8.69668 5.25 8.4232 5.43273 8.30711 5.71299C8.19103 5.99324 8.25519 6.31583 8.46969 6.53033L17.4697 15.5303Z" clip-rule="evenodd"/><path d="M5.46967 17.4697C5.17678 17.7626 5.17678 18.2374 5.46967 18.5303C5.76256 18.8232 6.23744 18.8232 6.53033 18.5303L13.5 11.5607L12.4393 10.5L5.46967 17.4697Z" opacity=".5"/></g></svg></a>
+      </div>
+      <figure class="reveal" data-delay="1">
+        <img src="img-loewe-blumen-1200.webp" srcset="img-loewe-blumen-640.webp 640w, img-loewe-blumen-1200.webp 1200w" sizes="(max-width:899px) 100vw, 50vw" width="1200" height="1500" loading="lazy" alt="Black-&-Grey-Löwe mit Blütenkrone und Schmuckdetail auf dem Oberarm">
+        <figcaption>Oberarm · Black &amp; Grey</figcaption>
+      </figure>
+    </div>
+  </article>
+
+  <article class="chapter light flip">
+    <div class="wrap grid grid-2">
+      <div class="reveal">
+        <span class="num">02 — Meine Styles</span>
+        <h2 class="h2">Fineline</h2>
+        <p class="lead">Feine Linien und filigrane Details.</p>
+        <p class="dim">Ideal für dezente, elegante und detailreiche Tattoos – Blüten, Schriftzüge, kleine Symbole mit Bedeutung.</p>
+        <a class="link" href="#portfolio" data-filter-link="fl">Fineline-Arbeiten ansehen <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path fill-rule="evenodd" d="M17.4697 15.5303C17.6842 15.7448 18.0068 15.809 18.287 15.6929C18.5673 15.5768 18.75 15.3033 18.75 15V6C18.75 5.58579 18.4142 5.25 18 5.25L9.00002 5.25C8.69668 5.25 8.4232 5.43273 8.30711 5.71299C8.19103 5.99324 8.25519 6.31583 8.46969 6.53033L17.4697 15.5303Z" clip-rule="evenodd"/><path d="M5.46967 17.4697C5.17678 17.7626 5.17678 18.2374 5.46967 18.5303C5.76256 18.8232 6.23744 18.8232 6.53033 18.5303L13.5 11.5607L12.4393 10.5L5.46967 17.4697Z" opacity=".5"/></g></svg></a>
+      </div>
+      <figure class="reveal" data-delay="1">
+        <img src="img-tulpen-1200.webp" srcset="img-tulpen-640.webp 640w, img-tulpen-1200.webp 1200w" sizes="(max-width:899px) 100vw, 50vw" width="1200" height="1500" loading="lazy" alt="Zwei zarte Fineline-Tulpen mit Initialen an den Unterarmen">
+        <figcaption>Unterarme · Fineline</figcaption>
+      </figure>
+    </div>
+  </article>
+
+  <article class="chapter dark-2">
+    <div class="wrap grid grid-2">
+      <div class="reveal">
+        <span class="num">03 — Meine Styles</span>
+        <h2 class="h2">Anime</h2>
+        <p class="lead">Dein Lieblingscharakter auf deiner Haut.</p>
+        <p class="dim">Ob Charakter, Szene oder individuelles Anime-Motiv – gemeinsam wird aus deiner Idee ein persönliches Tattoo.</p>
+        <a class="link" href="#portfolio" data-filter-link="an">Anime-Arbeiten ansehen <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path fill-rule="evenodd" d="M17.4697 15.5303C17.6842 15.7448 18.0068 15.809 18.287 15.6929C18.5673 15.5768 18.75 15.3033 18.75 15V6C18.75 5.58579 18.4142 5.25 18 5.25L9.00002 5.25C8.69668 5.25 8.4232 5.43273 8.30711 5.71299C8.19103 5.99324 8.25519 6.31583 8.46969 6.53033L17.4697 15.5303Z" clip-rule="evenodd"/><path d="M5.46967 17.4697C5.17678 17.7626 5.17678 18.2374 5.46967 18.5303C5.76256 18.8232 6.23744 18.8232 6.53033 18.5303L13.5 11.5607L12.4393 10.5L5.46967 17.4697Z" opacity=".5"/></g></svg></a>
+      </div>
+      <figure class="reveal" data-delay="1">
+        <img src="img-berserk-schwert-1200.webp" srcset="img-berserk-schwert-640.webp 640w, img-berserk-schwert-1200.webp 1200w" sizes="(max-width:899px) 100vw, 50vw" width="1200" height="1500" loading="lazy" alt="Anime-Schwert mit Behelit nach Vorlage auf dem Unterarm">
+        <figcaption>Unterarm · Anime</figcaption>
+      </figure>
+    </div>
+  </article>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section class="section" id="portfolio" aria-labelledby="portfolio-title">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="mono">Portfolio</span>
+        <h2 class="h2 word-reveal" id="portfolio-title" data-word-reveal>Einblicke in meine Arbeiten</h2>
+      </div>
+      <div class="filters" role="group" aria-label="Portfolio nach Stil filtern">
+        <button class="chip" data-filter="all" aria-pressed="true">Alle</button>
+        <button class="chip" data-filter="bg" aria-pressed="false">Black &amp; Grey</button>
+        <button class="chip" data-filter="fl" aria-pressed="false">Fineline</button>
+        <button class="chip" data-filter="an" aria-pressed="false">Anime</button>
+      </div>
+    </div>
+    <div class="gallery" id="gallery">
+      <figure data-cat="bg">
+        <button type="button" aria-label="Black-&-Grey-Löwe mit Blütenkrone und Schmuckdetail auf dem Oberarm – groß ansehen">
+          <img src="img-loewe-blumen-640.webp" srcset="img-loewe-blumen-640.webp 640w, img-loewe-blumen-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-loewe-blumen-1200.webp" alt="Black-&-Grey-Löwe mit Blütenkrone und Schmuckdetail auf dem Oberarm">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Löwin mit Blüten in Black & Grey auf der Schulter – groß ansehen">
+          <img src="img-loewin-blueten-640.webp" srcset="img-loewin-blueten-640.webp 640w, img-loewin-blueten-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-loewin-blueten-1200.webp" alt="Löwin mit Blüten in Black & Grey auf der Schulter">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Adlerkopf in Black & Grey auf dem Oberarm – groß ansehen">
+          <img src="img-adler-640.webp" srcset="img-adler-640.webp 640w, img-adler-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-adler-1200.webp" alt="Adlerkopf in Black & Grey auf dem Oberarm">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Stierkopf mit Blüten in Black & Grey auf dem Unterarm – groß ansehen">
+          <img src="img-stier-blueten-640.webp" srcset="img-stier-blueten-640.webp 640w, img-stier-blueten-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-stier-blueten-1200.webp" alt="Stierkopf mit Blüten in Black & Grey auf dem Unterarm">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Frauenportrait mit Schmetterling und Rosen in Black & Grey auf dem Oberarm – groß ansehen">
+          <img src="img-frau-schmetterling-640.webp" srcset="img-frau-schmetterling-640.webp 640w, img-frau-schmetterling-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-frau-schmetterling-1200.webp" alt="Frauenportrait mit Schmetterling und Rosen in Black & Grey auf dem Oberarm">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Löwe mit Rosen und Schmetterling in Black & Grey auf dem Unterarm – groß ansehen">
+          <img src="img-loewe-rosen-640.webp" srcset="img-loewe-rosen-640.webp 640w, img-loewe-rosen-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-loewe-rosen-1200.webp" alt="Löwe mit Rosen und Schmetterling in Black & Grey auf dem Unterarm">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Widderkopf mit Sternen und Ornament in Black & Grey – groß ansehen">
+          <img src="img-widder-640.webp" srcset="img-widder-640.webp 640w, img-widder-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-widder-1200.webp" alt="Widderkopf mit Sternen und Ornament in Black & Grey">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Spartanerhelm in Black & Grey auf dem Unterarm – groß ansehen">
+          <img src="img-helm-640.webp" srcset="img-helm-640.webp 640w, img-helm-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-helm-1200.webp" alt="Spartanerhelm in Black & Grey auf dem Unterarm">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Frauenportrait mit Lettering „One Life – One Chance“ in Black & Grey – groß ansehen">
+          <img src="img-one-life-640.webp" srcset="img-one-life-640.webp 640w, img-one-life-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-one-life-1200.webp" alt="Frauenportrait mit Lettering „One Life – One Chance“ in Black & Grey">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Panda mit Blüten in Black & Grey auf dem Unterarm – groß ansehen">
+          <img src="img-panda-640.webp" srcset="img-panda-640.webp 640w, img-panda-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-panda-1200.webp" alt="Panda mit Blüten in Black & Grey auf dem Unterarm">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="bg">
+        <button type="button" aria-label="Sonnenblumen mit Kolibri und Schmetterlingen in Black & Grey auf dem Unterarm – groß ansehen">
+          <img src="img-sonnenblumen-640.webp" srcset="img-sonnenblumen-640.webp 640w, img-sonnenblumen-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-sonnenblumen-1200.webp" alt="Sonnenblumen mit Kolibri und Schmetterlingen in Black & Grey auf dem Unterarm">
+        </button>
+        <figcaption>Black & Grey</figcaption>
+      </figure>
+      <figure data-cat="fl">
+        <button type="button" aria-label="Fineline-Blume mit Blättern auf dem Unterschenkel – groß ansehen">
+          <img src="img-blume-fineline-640.webp" srcset="img-blume-fineline-640.webp 640w, img-blume-fineline-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-blume-fineline-1200.webp" alt="Fineline-Blume mit Blättern auf dem Unterschenkel">
+        </button>
+        <figcaption>Fineline</figcaption>
+      </figure>
+      <figure data-cat="fl">
+        <button type="button" aria-label="Zwei zarte Fineline-Tulpen mit Initialen an den Unterarmen – groß ansehen">
+          <img src="img-tulpen-640.webp" srcset="img-tulpen-640.webp 640w, img-tulpen-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-tulpen-1200.webp" alt="Zwei zarte Fineline-Tulpen mit Initialen an den Unterarmen">
+        </button>
+        <figcaption>Fineline</figcaption>
+      </figure>
+      <figure data-cat="fl">
+        <button type="button" aria-label="Fineline-Blütensleeve mit Schmetterling auf dem Arm – groß ansehen">
+          <img src="img-blumen-sleeve-640.webp" srcset="img-blumen-sleeve-640.webp 640w, img-blumen-sleeve-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-blumen-sleeve-1200.webp" alt="Fineline-Blütensleeve mit Schmetterling auf dem Arm">
+        </button>
+        <figcaption>Fineline</figcaption>
+      </figure>
+      <figure data-cat="fl">
+        <button type="button" aria-label="Lotusblüte mit Sternen in Fineline auf dem Oberschenkel – groß ansehen">
+          <img src="img-lotus-oberschenkel-640.webp" srcset="img-lotus-oberschenkel-640.webp 640w, img-lotus-oberschenkel-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-lotus-oberschenkel-1200.webp" alt="Lotusblüte mit Sternen in Fineline auf dem Oberschenkel">
+        </button>
+        <figcaption>Fineline</figcaption>
+      </figure>
+      <figure data-cat="fl">
+        <button type="button" aria-label="Fineline-Motiv mit Mond, Sternen und Namen „Adrian“ auf dem Dekolleté – groß ansehen">
+          <img src="img-adrian-mond-640.webp" srcset="img-adrian-mond-640.webp 640w, img-adrian-mond-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-adrian-mond-1200.webp" alt="Fineline-Motiv mit Mond, Sternen und Namen „Adrian“ auf dem Dekolleté">
+        </button>
+        <figcaption>Fineline</figcaption>
+      </figure>
+      <figure data-cat="fl">
+        <button type="button" aria-label="Kleine Fineline-Dinos mit Daten und Sternzeichen auf dem Unterarm – groß ansehen">
+          <img src="img-dinos-daten-640.webp" srcset="img-dinos-daten-640.webp 640w, img-dinos-daten-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-dinos-daten-1200.webp" alt="Kleine Fineline-Dinos mit Daten und Sternzeichen auf dem Unterarm">
+        </button>
+        <figcaption>Fineline</figcaption>
+      </figure>
+      <figure data-cat="an">
+        <button type="button" aria-label="Anime-Schwert mit Behelit nach Vorlage auf dem Unterarm – groß ansehen">
+          <img src="img-berserk-schwert-640.webp" srcset="img-berserk-schwert-640.webp 640w, img-berserk-schwert-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-berserk-schwert-1200.webp" alt="Anime-Schwert mit Behelit nach Vorlage auf dem Unterarm">
+        </button>
+        <figcaption>Anime</figcaption>
+      </figure>
+      <figure data-cat="an">
+        <button type="button" aria-label="Kid Buu aus Dragon Ball in Black & Grey auf dem Oberschenkel – groß ansehen">
+          <img src="img-majin-buu-640.webp" srcset="img-majin-buu-640.webp 640w, img-majin-buu-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-majin-buu-1200.webp" alt="Kid Buu aus Dragon Ball in Black & Grey auf dem Oberschenkel">
+        </button>
+        <figcaption>Anime</figcaption>
+      </figure>
+      <figure data-cat="an">
+        <button type="button" aria-label="Anime-Motiv mit zwei Charakteren und roten Akzenten auf dem Oberschenkel – groß ansehen">
+          <img src="img-sukuna-yuji-640.webp" srcset="img-sukuna-yuji-640.webp 640w, img-sukuna-yuji-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-sukuna-yuji-1200.webp" alt="Anime-Motiv mit zwei Charakteren und roten Akzenten auf dem Oberschenkel">
+        </button>
+        <figcaption>Anime</figcaption>
+      </figure>
+      <figure data-cat="an">
+        <button type="button" aria-label="Anime-Kriegerin mit Kirschblüten auf dem Oberschenkel – groß ansehen">
+          <img src="img-kirschbluete-640.webp" srcset="img-kirschbluete-640.webp 640w, img-kirschbluete-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-kirschbluete-1200.webp" alt="Anime-Kriegerin mit Kirschblüten auf dem Oberschenkel">
+        </button>
+        <figcaption>Anime</figcaption>
+      </figure>
+      <figure data-cat="an">
+        <button type="button" aria-label="Brook aus One Piece mit „Yohoho“-Schriftzug auf dem Unterarm – groß ansehen">
+          <img src="img-brook-640.webp" srcset="img-brook-640.webp 640w, img-brook-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-brook-1200.webp" alt="Brook aus One Piece mit „Yohoho“-Schriftzug auf dem Unterarm">
+        </button>
+        <figcaption>Anime</figcaption>
+      </figure>
+      <figure data-cat="an">
+        <button type="button" aria-label="Schiggy mit Sonnenbrille als kleines Anime-Tattoo am Unterschenkel – groß ansehen">
+          <img src="img-squirtle-640.webp" srcset="img-squirtle-640.webp 640w, img-squirtle-1200.webp 1200w" sizes="(max-width:639px) 50vw, (max-width:1099px) 33vw, 25vw" width="640" height="800" loading="lazy" decoding="async" data-full="img-squirtle-1200.webp" alt="Schiggy mit Sonnenbrille als kleines Anime-Tattoo am Unterschenkel">
+        </button>
+        <figcaption>Anime</figcaption>
+      </figure>
+    </div>
+    <p class="status sr-only" id="galleryStatus" aria-live="polite"></p>
+    <div class="gallery-foot reveal">
+      <p class="dim" style="margin:0">Noch mehr aktuelle Arbeiten findest du auf Instagram.</p>
+      <a class="btn btn-ghost" href="https://www.instagram.com/tattoo.oedi" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M7.03.084c-1.277.06-2.149.264-2.91.563a5.9 5.9 0 0 0-2.124 1.388a5.9 5.9 0 0 0-1.38 2.127C.321 4.926.12 5.8.064 7.076s-.069 1.688-.063 4.947s.021 3.667.083 4.947c.061 1.277.264 2.149.563 2.911c.308.789.72 1.457 1.388 2.123a5.9 5.9 0 0 0 2.129 1.38c.763.295 1.636.496 2.913.552c1.278.056 1.689.069 4.947.063s3.668-.021 4.947-.082c1.28-.06 2.147-.265 2.91-.563a5.9 5.9 0 0 0 2.123-1.388a5.9 5.9 0 0 0 1.38-2.129c.295-.763.496-1.636.551-2.912c.056-1.28.07-1.69.063-4.948c-.006-3.258-.02-3.667-.081-4.947c-.06-1.28-.264-2.148-.564-2.911a5.9 5.9 0 0 0-1.387-2.123a5.9 5.9 0 0 0-2.128-1.38c-.764-.294-1.636-.496-2.914-.55C15.647.009 15.236-.006 11.977 0S8.31.021 7.03.084m.14 21.693c-1.17-.05-1.805-.245-2.228-.408a3.7 3.7 0 0 1-1.382-.895a3.7 3.7 0 0 1-.9-1.378c-.165-.423-.363-1.058-.417-2.228c-.06-1.264-.072-1.644-.08-4.848c-.006-3.204.006-3.583.061-4.848c.05-1.169.246-1.805.408-2.228c.216-.561.477-.96.895-1.382a3.7 3.7 0 0 1 1.379-.9c.423-.165 1.057-.361 2.227-.417c1.265-.06 1.644-.072 4.848-.08c3.203-.006 3.583.006 4.85.062c1.168.05 1.804.244 2.227.408c.56.216.96.475 1.382.895s.681.817.9 1.378c.165.422.362 1.056.417 2.227c.06 1.265.074 1.645.08 4.848c.005 3.203-.006 3.583-.061 4.848c-.051 1.17-.245 1.805-.408 2.23c-.216.56-.477.96-.896 1.38a3.7 3.7 0 0 1-1.378.9c-.422.165-1.058.362-2.226.418c-1.266.06-1.645.072-4.85.079s-3.582-.006-4.848-.06m9.783-16.192a1.44 1.44 0 1 0 1.437-1.442a1.44 1.44 0 0 0-1.437 1.442M5.839 12.012a6.161 6.161 0 1 0 12.323-.024a6.162 6.162 0 0 0-12.323.024M8 12.008A4 4 0 1 1 12.008 16A4 4 0 0 1 8 12.008"/></svg> Instagram – tattoo.oedi</a>
+    </div>
+  </div>
+</section>
+
+<dialog class="lb" id="lightbox" aria-label="Bildansicht">
+  <div class="lb-inner">
+    <img id="lbImg" src="" alt="">
+    <div class="lb-bar">
+      <p id="lbCap"></p>
+      <div class="lb-ctl">
+        <button class="icon-btn" id="lbPrev" aria-label="Vorheriges Bild"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path d="M11.5956 8.30273L8.16485 11.6296C7.94505 11.8428 7.94505 12.1573 8.16485 12.3704L14.7953 18.8001C15.2091 19.2013 16 18.9581 16 18.4297V12.7071L11.5956 8.30273Z"/><path d="M15.9999 11.2929L15.9999 5.5703C15.9999 5.04189 15.2089 4.79869 14.7952 5.1999L12.3135 7.60648L15.9999 11.2929Z" opacity=".5"/></g></svg></button>
+        <button class="icon-btn" id="lbNext" aria-label="Nächstes Bild"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path d="M12.4044 8.30273L15.8351 11.6296C16.0549 11.8428 16.0549 12.1573 15.8351 12.3704L9.20467 18.8001C8.79094 19.2013 8 18.9581 8 18.4297V12.7071L12.4044 8.30273Z"/><path d="M8 11.2929L8 5.5703C8 5.04189 8.79094 4.79869 9.20467 5.1999L11.6864 7.60648L8 11.2929Z" opacity=".5"/></g></svg></button>
+      </div>
+    </div>
+  </div>
+  <button class="icon-btn lb-close" id="lbClose" aria-label="Schließen"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" opacity=".5"/><path d="M8.96967 8.96967C9.26256 8.67678 9.73744 8.67678 10.0303 8.96967L12 10.9394L13.9697 8.96969C14.2626 8.6768 14.7374 8.6768 15.0303 8.96969C15.3232 9.26258 15.3232 9.73746 15.0303 10.0304L13.0607 12L15.0303 13.9696C15.3232 14.2625 15.3232 14.7374 15.0303 15.0303C14.7374 15.3232 14.2625 15.3232 13.9696 15.0303L12 13.0607L10.0304 15.0303C9.73746 15.3232 9.26258 15.3232 8.96969 15.0303C8.6768 14.7374 8.6768 14.2626 8.96969 13.9697L10.9394 12L8.96967 10.0303C8.67678 9.73744 8.67678 9.26256 8.96967 8.96967Z"/></g></svg></button>
+</dialog>
+
+<!-- ============ ÜBER ============ -->
+<section class="section light" id="ueber" aria-labelledby="ueber-title">
+  <div class="wrap grid grid-7-5">
+    <div class="reveal">
+      <span class="mono">Über Tattoo Oedi</span>
+      <h2 class="h2 word-reveal" id="ueber-title" data-word-reveal style="margin:14px 0 26px">Tattoos, die zu dir passen.</h2>
+      <p class="lead">Ein Tattoo sollte etwas Persönliches sein. Deshalb steht bei Tattoo Oedi die individuelle Beratung im Mittelpunkt.</p>
+      <p class="dim">Gemeinsam besprechen wir deine Idee, die gewünschte Körperstelle, Größe und den passenden Stil. Anschließend wird das Motiv so geplant, dass es optimal zu dir und deiner Körperstelle passt.</p>
+      <ul class="marks" aria-label="Meine Schwerpunkte">
+        <li><span class="num">01</span> Black &amp; Grey</li>
+        <li><span class="num">02</span> Fineline</li>
+        <li><span class="num">03</span> Anime</li>
+        <li><span class="num">04</span> Individuelle Tattoo-Konzepte</li>
+      </ul>
+      <div class="sig">
+        <strong>Dennis</strong>
+        <span class="mono">Tattoo Oedi</span>
+      </div>
+    </div>
+    <figure class="about-media reveal" data-delay="1">
+      <video id="aboutVideo" src="video-stechen.mp4" poster="video-stechen-poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Kurzer Clip: Dennis sticht ein Schwert-Motiv nach Vorlage auf einen Unterarm"></video>
+      <figcaption>Beim Stechen · Motiv nach Vorlage</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ COVER-UPS ============ -->
+<section class="section dark-2" id="coverups" aria-labelledby="cover-title">
+  <div class="wrap grid grid-4-8">
+    <div class="reveal">
+      <span class="mono">Cover-ups</span>
+      <h2 class="h2 h2-s" id="cover-title" style="margin-top:14px">Ein altes Tattoo muss nicht für immer bleiben.</h2>
+    </div>
+    <div class="reveal" data-delay="1">
+      <p class="lead">Cover-ups sind grundsätzlich möglich, allerdings kann nicht jedes Tattoo problemlos überstochen werden. Deshalb wird jedes Cover-up individuell geprüft.</p>
+      <p class="dim">Schick bei deiner Anfrage am besten ein aktuelles, gut erkennbares Foto deines bestehenden Tattoos mit. Anschließend kann eingeschätzt werden, welche Möglichkeiten bestehen.</p>
+      <div class="btn-row">
+        <a class="btn btn-ghost" href="#anfrage" data-preset-coverup><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path d="M9.77778 21H14.2222C17.3433 21 18.9038 21 20.0248 20.2646C20.51 19.9462 20.9267 19.5371 21.251 19.0607C22 17.9601 22 16.4279 22 13.3636C22 10.2994 22 8.76721 21.251 7.6666C20.9267 7.19014 20.51 6.78104 20.0248 6.46268C19.3044 5.99013 18.4027 5.82123 17.022 5.76086C16.3631 5.76086 15.7959 5.27068 15.6667 4.63636C15.4728 3.68489 14.6219 3 13.6337 3H10.3663C9.37805 3 8.52715 3.68489 8.33333 4.63636C8.20412 5.27068 7.63685 5.76086 6.978 5.76086C5.59733 5.82123 4.69555 5.99013 3.97524 6.46268C3.48995 6.78104 3.07328 7.19014 2.74902 7.6666C2 8.76721 2 10.2994 2 13.3636C2 16.4279 2 17.9601 2.74902 19.0607C3.07328 19.5371 3.48995 19.9462 3.97524 20.2646C5.09624 21 6.65675 21 9.77778 21Z" opacity=".5"/><path d="M17.5562 9.27246C17.096 9.27246 16.7229 9.63877 16.7229 10.0906C16.7229 10.5425 17.096 10.9088 17.5562 10.9088H18.6673C19.1276 10.9088 19.5007 10.5425 19.5007 10.0906C19.5007 9.63877 19.1276 9.27246 18.6673 9.27246H17.5562Z"/><path fill-rule="evenodd" d="M12.0007 9.27246C9.69946 9.27246 7.83398 11.104 7.83398 13.3634C7.83398 15.6227 9.69946 17.4543 12.0007 17.4543C14.3018 17.4543 16.1673 15.6227 16.1673 13.3634C16.1673 11.104 14.3018 9.27246 12.0007 9.27246ZM12.0007 10.9088C10.6199 10.9088 9.50065 12.0078 9.50065 13.3634C9.50065 14.719 10.6199 15.8179 12.0007 15.8179C13.3814 15.8179 14.5007 14.719 14.5007 13.3634C14.5007 12.0078 13.3814 10.9088 12.0007 10.9088Z" clip-rule="evenodd"/></g></svg> Cover-up Anfrage</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PREISE ============ -->
+<section class="section light-2" id="preise" aria-labelledby="preise-title">
+  <div class="wrap grid grid-5-7">
+    <div class="reveal">
+      <span class="mono">Preise</span>
+      <h2 class="h2" id="preise-title" style="margin-top:14px">Was kostet ein Tattoo?</h2>
+      <p class="big-price" aria-label="Mindestpreis 80 Euro"><small>ab</small>80&nbsp;€</p>
+      <span class="mono">Mindestpreis</span>
+    </div>
+    <div class="reveal" data-delay="1">
+      <p class="lead">Der Preis hängt vom jeweiligen Motiv, der Größe, der Körperstelle und dem Aufwand ab.</p>
+      <ul class="facts">
+        <li><span class="num">01</span><span>Ich arbeite nicht mit einem festen Stundenpreis.</span></li>
+        <li><span class="num">02</span><span>Bei größeren oder aufwendigeren Projekten wird der Preis individuell anhand des geplanten Tattoos besprochen.</span></li>
+        <li><span class="num">03</span><span>Für eine möglichst genaue Einschätzung kannst du deiner Anfrage direkt Bilder oder Referenzen hinzufügen.</span></li>
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn-dark" href="#anfrage">Preis einschätzen lassen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ANFRAGE ============ -->
+<section class="section" id="anfrage" aria-labelledby="anfrage-title">
+  <div class="wrap grid grid-5-7">
+    <div class="reveal">
+      <span class="mono">Tattoo-Anfrage</span>
+      <h2 class="h2 word-reveal" id="anfrage-title" data-word-reveal style="margin:14px 0 22px">Du hast eine Idee? Dann erzähl mir davon.</h2>
+      <p class="dim">Für eine Anfrage sind folgende Angaben hilfreich. Je genauer sie sind, desto besser kann dein Tattoo-Projekt eingeschätzt werden.</p>
+      <ol class="steps">
+        <li><span class="num">01</span><div><strong>Motiv</strong><span class="dim">Was möchtest du tätowieren lassen?</span></div></li>
+        <li><span class="num">02</span><div><strong>Körperstelle</strong><span class="dim">Wo soll das Tattoo hin?</span></div></li>
+        <li><span class="num">03</span><div><strong>Größe</strong><span class="dim">Wie groß soll es ungefähr werden?</span></div></li>
+        <li><span class="num">04</span><div><strong>Stil</strong><span class="dim">Black &amp; Grey, Fineline, Anime oder etwas anderes?</span></div></li>
+        <li><span class="num">05</span><div><strong>Referenzen</strong><span class="dim">Du kannst Bilder oder Beispiele deiner Vorstellungen mitsenden.</span></div></li>
+        <li><span class="num">06</span><div><strong>Cover-up</strong><span class="dim">Falls ja, bitte unbedingt ein aktuelles Foto des vorhandenen Tattoos mitsenden.</span></div></li>
+      </ol>
+    </div>
+    <form id="anfrageForm" class="reveal" data-delay="1" novalidate>
+      <div class="two">
+        <div class="field">
+          <label for="f-name">Dein Name <span class="dim">(optional)</span></label>
+          <input type="text" id="f-name" name="name" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="f-stelle">Körperstelle</label>
+          <input type="text" id="f-stelle" name="stelle" placeholder="z. B. Unterarm innen" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="f-motiv">Motiv</label>
+        <textarea id="f-motiv" name="motiv" placeholder="Beschreib deine Idee – Charakter, Blume, Schriftzug, Bedeutung …" required></textarea>
+      </div>
+      <div class="field">
+        <label for="f-groesse">Größe (ungefähr)</label>
+        <input type="text" id="f-groesse" name="groesse" placeholder="z. B. 15 × 10 cm oder handtellergroß">
+      </div>
+      <div class="field">
+        <fieldset class="field">
+          <legend>Stil</legend>
+          <div class="radios">
+            <label><input type="radio" name="stil" value="Black & Grey" checked> Black &amp; Grey</label>
+            <label><input type="radio" name="stil" value="Fineline"> Fineline</label>
+            <label><input type="radio" name="stil" value="Anime"> Anime</label>
+            <label><input type="radio" name="stil" value="Etwas anderes"> Etwas anderes</label>
+          </div>
+        </fieldset>
+      </div>
+      <label class="check"><input type="checkbox" id="f-cover" name="coverup"> <span>Es handelt sich um ein Cover-up. <span class="dim">Ich schicke im Chat ein aktuelles, gut erkennbares Foto des vorhandenen Tattoos mit.</span></span></label>
+      <div class="form-foot">
+        <button class="btn btn-red" type="submit"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967c-.273-.099-.471-.148-.67.15c-.197.297-.767.966-.94 1.164c-.173.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479c0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625c.712.227 1.36.195 1.871.118c.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214l-3.741.982l.998-3.648l-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884c2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"/></svg> Jetzt Anfrage senden</button>
+        <p class="hint">Öffnet WhatsApp mit deiner fertigen Nachricht an Dennis. Referenzbilder hängst du dort direkt an.</p>
+      </div>
+      <p class="status" id="formStatus" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ HYGIENE ============ -->
+<section class="section light" id="hygiene" aria-labelledby="hyg-title">
+  <div class="wrap hyg">
+    <div class="reveal"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path d="M3.37752 5.08241C3 5.62028 3 7.21907 3 10.4167V11.9914C3 17.6294 7.23896 20.3655 9.89856 21.5273C10.62 21.8424 10.9807 22 12 22C13.0193 22 13.38 21.8424 14.1014 21.5273C16.761 20.3655 21 17.6294 21 11.9914V10.4167C21 7.21907 21 5.62028 20.6225 5.08241C20.245 4.54454 18.7417 4.02996 15.7351 3.00079L15.1623 2.80472C13.595 2.26824 12.8114 2 12 2C11.1886 2 10.405 2.26824 8.83772 2.80472L8.26491 3.00079C5.25832 4.02996 3.75503 4.54454 3.37752 5.08241Z" opacity=".5"/><path d="M15.0595 10.4995C15.3353 10.1905 15.3085 9.71643 14.9995 9.44055C14.6905 9.16468 14.2164 9.19152 13.9406 9.5005L10.9286 12.8739L10.0595 11.9005C9.78359 11.5915 9.30947 11.5647 9.0005 11.8406C8.69152 12.1164 8.66468 12.5905 8.94055 12.8995L10.3691 14.4995C10.5114 14.6589 10.7149 14.75 10.9286 14.75C11.1422 14.75 11.3457 14.6589 11.488 14.4995L15.0595 10.4995Z"/></g></svg></div>
+    <div class="reveal" data-delay="1">
+      <span class="mono">Hygiene</span>
+      <h2 class="h3" id="hyg-title" style="margin:12px 0 18px;font-size:clamp(26px,3vw,40px)">Sauberkeit und Hygiene sind selbstverständlich.</h2>
+      <p class="lead">Eine professionelle und hygienische Arbeitsweise steht bei jedem Tattoo im Vordergrund.</p>
+      <p class="dim">Der Arbeitsplatz wird entsprechend vorbereitet und gereinigt. Für das Tätowieren werden geeignete sterile bzw. Einwegmaterialien verwendet. Deine Sicherheit und dein Wohlbefinden stehen dabei an erster Stelle.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="mono">Häufige Fragen</span>
+        <h2 class="h2" id="faq-title">Gut zu wissen</h2>
+      </div>
+    </div>
+    <div class="faq reveal">
+      <details><summary><span class="num">01</span>Was kostet ein Tattoo?<span class="plus" aria-hidden="true">+</span></summary><p>Der Mindestpreis liegt bei 80 €. Der endgültige Preis richtet sich nach Motiv, Größe, Körperstelle und Aufwand.</p></details>
+      <details><summary><span class="num">02</span>Gibt es einen Stundenpreis?<span class="plus" aria-hidden="true">+</span></summary><p>Nein. Tattoo Oedi arbeitet nicht mit einem festen Stundenpreis.</p></details>
+      <details><summary><span class="num">03</span>Macht ihr Cover-ups?<span class="plus" aria-hidden="true">+</span></summary><p>Cover-ups sind bedingt möglich. Jedes bestehende Tattoo wird vorher individuell geprüft – schick dafür ein aktuelles Foto mit.</p></details>
+      <details><summary><span class="num">04</span>Kann ich mein eigenes Motiv mitbringen?<span class="plus" aria-hidden="true">+</span></summary><p>Natürlich. Eigene Ideen und Referenzbilder können gerne mitgebracht werden.</p></details>
+      <details><summary><span class="num">05</span>Muss ich bereits eine fertige Vorlage haben?<span class="plus" aria-hidden="true">+</span></summary><p>Nein. Du kannst auch nur deine Idee oder eine grobe Vorstellung mitbringen.</p></details>
+      <details><summary><span class="num">06</span>Welche Tattoo-Stile werden angeboten?<span class="plus" aria-hidden="true">+</span></summary><p>Der Schwerpunkt liegt auf Black &amp; Grey, Fineline und Anime.</p></details>
+      <details><summary><span class="num">07</span>Wie kann ich einen Termin anfragen?<span class="plus" aria-hidden="true">+</span></summary><p>Über das Anfrage-Formular auf dieser Seite (öffnet WhatsApp) oder direkt über Instagram.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KONTAKT ============ -->
+<section class="section contact" id="kontakt" aria-labelledby="kontakt-title">
+  <div class="wrap grid grid-7-5">
+    <div class="reveal">
+      <span class="mono">Kontakt</span>
+      <h2 class="h2 word-reveal" id="kontakt-title" data-word-reveal style="margin:14px 0 26px">Bereit für dein nächstes Tattoo?</h2>
+      <p class="lead">Dann schick mir deine Anfrage.</p>
+      <div class="btn-row">
+        <a class="btn btn-dark" href="https://wa.me/491638462849?text=Hallo%20Dennis%2C%20ich%20habe%20eine%20Tattoo-Idee%20und%20w%C3%BCrde%20gern%20eine%20Anfrage%20stellen." target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967c-.273-.099-.471-.148-.67.15c-.197.297-.767.966-.94 1.164c-.173.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479c0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625c.712.227 1.36.195 1.871.118c.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214l-3.741.982l.998-3.648l-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884c2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"/></svg> Tattoo Anfrage senden</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/tattoo.oedi" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M7.03.084c-1.277.06-2.149.264-2.91.563a5.9 5.9 0 0 0-2.124 1.388a5.9 5.9 0 0 0-1.38 2.127C.321 4.926.12 5.8.064 7.076s-.069 1.688-.063 4.947s.021 3.667.083 4.947c.061 1.277.264 2.149.563 2.911c.308.789.72 1.457 1.388 2.123a5.9 5.9 0 0 0 2.129 1.38c.763.295 1.636.496 2.913.552c1.278.056 1.689.069 4.947.063s3.668-.021 4.947-.082c1.28-.06 2.147-.265 2.91-.563a5.9 5.9 0 0 0 2.123-1.388a5.9 5.9 0 0 0 1.38-2.129c.295-.763.496-1.636.551-2.912c.056-1.28.07-1.69.063-4.948c-.006-3.258-.02-3.667-.081-4.947c-.06-1.28-.264-2.148-.564-2.911a5.9 5.9 0 0 0-1.387-2.123a5.9 5.9 0 0 0-2.128-1.38c-.764-.294-1.636-.496-2.914-.55C15.647.009 15.236-.006 11.977 0S8.31.021 7.03.084m.14 21.693c-1.17-.05-1.805-.245-2.228-.408a3.7 3.7 0 0 1-1.382-.895a3.7 3.7 0 0 1-.9-1.378c-.165-.423-.363-1.058-.417-2.228c-.06-1.264-.072-1.644-.08-4.848c-.006-3.204.006-3.583.061-4.848c.05-1.169.246-1.805.408-2.228c.216-.561.477-.96.895-1.382a3.7 3.7 0 0 1 1.379-.9c.423-.165 1.057-.361 2.227-.417c1.265-.06 1.644-.072 4.848-.08c3.203-.006 3.583.006 4.85.062c1.168.05 1.804.244 2.227.408c.56.216.96.475 1.382.895s.681.817.9 1.378c.165.422.362 1.056.417 2.227c.06 1.265.074 1.645.08 4.848c.005 3.203-.006 3.583-.061 4.848c-.051 1.17-.245 1.805-.408 2.23c-.216.56-.477.96-.896 1.38a3.7 3.7 0 0 1-1.378.9c-.422.165-1.058.362-2.226.418c-1.266.06-1.645.072-4.85.079s-3.582-.006-4.848-.06m9.783-16.192a1.44 1.44 0 1 0 1.437-1.442a1.44 1.44 0 0 0-1.437 1.442M5.839 12.012a6.161 6.161 0 1 0 12.323-.024a6.162 6.162 0 0 0-12.323.024M8 12.008A4 4 0 1 1 12.008 16A4 4 0 0 1 8 12.008"/></svg> Instagram</a>
+      </div>
+    </div>
+    <div class="reveal" data-delay="1">
+      <ul class="contact-list">
+        <li><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path fill-rule="evenodd" d="M16.1007 13.359L16.5562 12.9062C17.1858 12.2801 18.1672 12.1515 18.9728 12.5894L20.8833 13.628C22.1102 14.2949 22.3806 15.9295 21.4217 16.883L20.0011 18.2954C19.6399 18.6546 19.1917 18.9171 18.6763 18.9651C17.4841 19.0763 15.0313 19.0163 12.1374 17.3223L16.1007 13.359ZM10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.06761 6.88446 4.45582 8.9649 6.15176 11.5215L10.1907 7.48257Z" clip-rule="evenodd"/><path d="M12.0627 11.4971C9.11695 8.56804 10.1836 7.48913 10.1903 7.48242L6.15137 11.5214C6.81756 12.5256 7.68554 13.6034 8.81497 14.7264C9.95468 15.8596 11.0755 16.7008 12.137 17.3222L16.1003 13.3589C16.1003 13.3589 15.0177 14.4353 12.0627 11.4971Z" opacity=".5"/></g></svg><a href="tel:+491638462849">+49 163 8462849</a></li>
+        <li><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M7.03.084c-1.277.06-2.149.264-2.91.563a5.9 5.9 0 0 0-2.124 1.388a5.9 5.9 0 0 0-1.38 2.127C.321 4.926.12 5.8.064 7.076s-.069 1.688-.063 4.947s.021 3.667.083 4.947c.061 1.277.264 2.149.563 2.911c.308.789.72 1.457 1.388 2.123a5.9 5.9 0 0 0 2.129 1.38c.763.295 1.636.496 2.913.552c1.278.056 1.689.069 4.947.063s3.668-.021 4.947-.082c1.28-.06 2.147-.265 2.91-.563a5.9 5.9 0 0 0 2.123-1.388a5.9 5.9 0 0 0 1.38-2.129c.295-.763.496-1.636.551-2.912c.056-1.28.07-1.69.063-4.948c-.006-3.258-.02-3.667-.081-4.947c-.06-1.28-.264-2.148-.564-2.911a5.9 5.9 0 0 0-1.387-2.123a5.9 5.9 0 0 0-2.128-1.38c-.764-.294-1.636-.496-2.914-.55C15.647.009 15.236-.006 11.977 0S8.31.021 7.03.084m.14 21.693c-1.17-.05-1.805-.245-2.228-.408a3.7 3.7 0 0 1-1.382-.895a3.7 3.7 0 0 1-.9-1.378c-.165-.423-.363-1.058-.417-2.228c-.06-1.264-.072-1.644-.08-4.848c-.006-3.204.006-3.583.061-4.848c.05-1.169.246-1.805.408-2.228c.216-.561.477-.96.895-1.382a3.7 3.7 0 0 1 1.379-.9c.423-.165 1.057-.361 2.227-.417c1.265-.06 1.644-.072 4.848-.08c3.203-.006 3.583.006 4.85.062c1.168.05 1.804.244 2.227.408c.56.216.96.475 1.382.895s.681.817.9 1.378c.165.422.362 1.056.417 2.227c.06 1.265.074 1.645.08 4.848c.005 3.203-.006 3.583-.061 4.848c-.051 1.17-.245 1.805-.408 2.23c-.216.56-.477.96-.896 1.38a3.7 3.7 0 0 1-1.378.9c-.422.165-1.058.362-2.226.418c-1.266.06-1.645.072-4.85.079s-3.582-.006-4.848-.06m9.783-16.192a1.44 1.44 0 1 0 1.437-1.442a1.44 1.44 0 0 0-1.437 1.442M5.839 12.012a6.161 6.161 0 1 0 12.323-.024a6.162 6.162 0 0 0-12.323.024M8 12.008A4 4 0 1 1 12.008 16A4 4 0 0 1 8 12.008"/></svg><a href="https://www.instagram.com/tattoo.oedi" target="_blank" rel="noopener">@tattoo.oedi</a></li>
+        <li><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor"><path d="M12 2C7.58172 2 4 6.00258 4 10.5C4 14.9622 6.55332 19.8124 10.5371 21.6744C11.4657 22.1085 12.5343 22.1085 13.4629 21.6744C17.4467 19.8124 20 14.9622 20 10.5C20 6.00258 16.4183 2 12 2Z" opacity=".5"/><path d="M12 12.5C13.3807 12.5 14.5 11.3807 14.5 10C14.5 8.61929 13.3807 7.5 12 7.5C10.6193 7.5 9.5 8.61929 9.5 10C9.5 11.3807 10.6193 12.5 12 12.5Z"/></g></svg><span>Adresse folgt</span></li>
+      </ul>
+      <p class="mono" style="margin-top:22px">Tattoo Oedi · Dennis</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <a class="brand" href="#top">Tattoo Oedi</a>
+      <ul>
+        <li><a href="#styles">Styles</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#coverups">Cover-ups</a></li>
+        <li><a href="#preise">Preise</a></li>
+        <li><a href="#hygiene">Hygiene</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+    <div class="legal">
+      <span>© 2026 Tattoo Oedi · Dennis</span>
+      <span><a href="impressum.html">Impressum</a> &nbsp;·&nbsp; <a href="impressum.html#datenschutz">Datenschutz</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Nav */
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('solid', window.scrollY > 24);
+  onScroll(); addEventListener('scroll', onScroll, {passive:true});
+  const menuBtn = document.getElementById('menuBtn');
+  menuBtn.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.textContent = open ? 'Schließen' : 'Menü';
+  });
+  document.querySelectorAll('#menu a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded','false'); menuBtn.textContent='Menü';
+  }));
+
+  /* Word reveal (staggered-word-reveal) */
+  function splitWordReveal(el){
+    if (el.dataset.wordRevealReady === 'true') return;
+    const text = el.textContent || '';
+    const parts = text.split(/(\s+)/); let i = 0;
+    el.textContent = ''; el.setAttribute('aria-label', text.trim());
+    parts.forEach(p => {
+      if (!p.trim()) { el.appendChild(document.createTextNode(p)); return; }
+      const w = document.createElement('span'); w.className='word-reveal__word'; w.setAttribute('aria-hidden','true');
+      w.style.setProperty('--word-index', i++); w.textContent = p; el.appendChild(w);
+    });
+    el.dataset.wordRevealReady = 'true'; el.classList.add('is-ready');
+  }
+  const words = [...document.querySelectorAll('[data-word-reveal]')];
+  const reveals = [...document.querySelectorAll('.reveal')];
+  if (reduce || !('IntersectionObserver' in window)) {
+    words.forEach(el => el.classList.add('is-ready','is-visible'));
+    reveals.forEach(el => el.classList.add('in'));
+  } else {
+    words.forEach(splitWordReveal);
+    const io = new IntersectionObserver((entries, o) => {
+      entries.forEach(e => {
+        // sichtbar – oder bereits vorbeigescrollt (schnelles Scrollen)
+        if (e.isIntersecting || e.boundingClientRect.bottom < 0) { e.target.classList.add(e.target.hasAttribute('data-word-reveal') ? 'is-visible' : 'in'); o.unobserve(e.target); }
+      });
+    }, {threshold:.08, rootMargin:'0px 0px -6% 0px'});
+    const pending = new Set([...words, ...reveals]);
+    pending.forEach(el => io.observe(el));
+    // Sicherheitsnetz bei sehr schnellem Scrollen: alles, was oberhalb der Viewport-Unterkante liegt, einblenden
+    let ticking = false;
+    const sweep = () => { ticking = false; pending.forEach(el => { if (el.getBoundingClientRect().top < innerHeight * .96) { el.classList.add(el.hasAttribute('data-word-reveal') ? 'is-visible' : 'in'); io.unobserve(el); pending.delete(el); } }); if (!pending.size) removeEventListener('scroll', onScrollSweep); };
+    const onScrollSweep = () => { if (!ticking) { ticking = true; requestAnimationFrame(sweep); } };
+    addEventListener('scroll', onScrollSweep, {passive:true});
+  }
+
+  /* About video: respect reduced motion, pause offscreen */
+  const vid = document.getElementById('aboutVideo');
+  if (vid) {
+    if (reduce) { vid.removeAttribute('autoplay'); vid.pause(); vid.setAttribute('controls',''); }
+    else if ('IntersectionObserver' in window) {
+      new IntersectionObserver(es => es.forEach(e => { e.isIntersecting ? vid.play().catch(()=>{}) : vid.pause(); }), {threshold:.2}).observe(vid);
+    }
+  }
+
+  /* Portfolio filter */
+  const chips = [...document.querySelectorAll('.chip')];
+  const figs = [...document.querySelectorAll('#gallery figure')];
+  const status = document.getElementById('galleryStatus');
+  const names = {all:'Alle Arbeiten', bg:'Black & Grey', fl:'Fineline', an:'Anime'};
+  function applyFilter(f){
+    chips.forEach(c => c.setAttribute('aria-pressed', String(c.dataset.filter === f)));
+    let n = 0; figs.forEach(fig => { const show = f==='all' || fig.dataset.cat === f; fig.hidden = !show; if (show) n++; });
+    status.textContent = `${names[f]}: ${n} Arbeiten`;
+  }
+  chips.forEach(c => c.addEventListener('click', () => applyFilter(c.dataset.filter)));
+  document.querySelectorAll('[data-filter-link]').forEach(a => a.addEventListener('click', () => applyFilter(a.dataset.filterLink)));
+
+  /* Lightbox */
+  const lb = document.getElementById('lightbox'), lbImg = document.getElementById('lbImg'), lbCap = document.getElementById('lbCap');
+  let idx = 0, lastFocus = null;
+  const visible = () => figs.filter(f => !f.hidden);
+  function show(i){
+    const list = visible(); if (!list.length) return;
+    idx = (i + list.length) % list.length;
+    const img = list[idx].querySelector('img');
+    lbImg.src = img.dataset.full || img.currentSrc || img.src; lbImg.alt = img.alt; lbCap.textContent = img.alt;
+  }
+  figs.forEach(f => f.querySelector('button').addEventListener('click', e => {
+    lastFocus = e.currentTarget; show(visible().indexOf(f));
+    if (typeof lb.showModal === 'function') lb.showModal(); else lb.setAttribute('open','');
+    document.getElementById('lbClose').focus();
+  }));
+  document.getElementById('lbPrev').addEventListener('click', () => show(idx-1));
+  document.getElementById('lbNext').addEventListener('click', () => show(idx+1));
+  document.getElementById('lbClose').addEventListener('click', () => lb.close());
+  lb.addEventListener('click', e => { if (e.target === lb) lb.close(); });
+  lb.addEventListener('keydown', e => { if (e.key==='ArrowLeft') show(idx-1); if (e.key==='ArrowRight') show(idx+1); });
+  lb.addEventListener('close', () => { lbImg.src=''; if (lastFocus) lastFocus.focus(); });
+
+  /* Cover-up preset */
+  document.querySelectorAll('[data-preset-coverup]').forEach(a => a.addEventListener('click', () => {
+    const c = document.getElementById('f-cover'); if (c) c.checked = true;
+  }));
+
+  /* Anfrage → WhatsApp */
+  const form = document.getElementById('anfrageForm'), fs = document.getElementById('formStatus');
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const d = new FormData(form);
+    const motiv = (d.get('motiv')||'').trim(), stelle = (d.get('stelle')||'').trim();
+    if (!motiv || !stelle) {
+      fs.textContent = 'Bitte gib mindestens Motiv und Körperstelle an.';
+      (motiv ? form.stelle : form.motiv).focus(); return;
+    }
+    const name = (d.get('name')||'').trim();
+    const lines = [
+      `Hallo Dennis${name ? ', ich bin ' + name : ''} – ich habe eine Tattoo-Anfrage:`,
+      ``,
+      `Motiv: ${motiv}`,
+      `Körperstelle: ${stelle}`,
+      `Größe: ${(d.get('groesse')||'').trim() || 'noch offen'}`,
+      `Stil: ${d.get('stil')}`,
+      `Cover-up: ${d.get('coverup') ? 'Ja – Foto vom bestehenden Tattoo schicke ich gleich mit' : 'Nein'}`,
+      ``,
+      `Referenzbilder schicke ich hier im Chat.`
+    ];
+    const url = 'https://wa.me/491638462849?text=' + encodeURIComponent(lines.join('\n'));
+    fs.textContent = 'WhatsApp wird geöffnet …';
+    window.open(url, '_blank', 'noopener');
+  });
+})();
+</script>
+</body>
+</html>
